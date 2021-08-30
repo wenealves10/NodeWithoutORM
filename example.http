@@ -1,0 +1,11 @@
+POST http://localhost:3000/users HTTP/1:1
+content-type: application/json
+
+{
+  "name": "Wene Alves",
+  "email": "weneplay5@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/users/be147cd8-1f82-4b45-9991-0b742d57bc88 HTTP/1:1
